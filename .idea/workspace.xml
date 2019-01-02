@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77b4e3d4-6890-42eb-a776-34099d039f3d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Front/src/components/exportEventForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back/data/users" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/views/calendar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/views/calendar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/components/addEventForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/components/addEventForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/components/exportEventForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/components/exportEventForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,17 +31,29 @@
       <file leaf-file-name="addEventForm.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Front/src/components/addEventForm.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="42" lean-forward="true" selection-end-line="143" />
+            <state relative-caret-position="1738">
+              <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exportEventForm.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Front/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exportEventForm.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Front/src/components/exportEventForm.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="506">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -72,7 +84,9 @@
       <list>
         <option value="$PROJECT_DIR$/Front/package.json" />
         <option value="$PROJECT_DIR$/Front/src/views/calendar.vue" />
+        <option value="$PROJECT_DIR$/Front/src/components/addEventForm.vue" />
         <option value="$PROJECT_DIR$/Front/src/components/exportEventForm.vue" />
+        <option value="$PROJECT_DIR$/Front/src/main.js" />
       </list>
     </option>
   </component>
@@ -1447,12 +1461,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546458180280</updated>
-      <workItem from="1546458181415" duration="3670000" />
+      <workItem from="1546458181415" duration="4167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3670000" />
+    <option name="totallyTimeSpent" value="4167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1484,20 +1498,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Front/src/views/calendar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="156" column="27" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/src/components/addEventForm.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="42" lean-forward="true" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1505,10 +1505,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Back/data/users">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/src/views/calendar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="156" column="27" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Front/src/components/exportEventForm.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="506">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/src/components/addEventForm.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1738">
+          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

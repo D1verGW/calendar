@@ -95,6 +95,7 @@
             width: 125px;
             padding: 5px;
             position: relative;
+            border-radius: 10px;
         }
         input[type='text'] {
             width: 250px;

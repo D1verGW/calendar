@@ -72,6 +72,8 @@ window.app = new Vue({
                         console.log('updated!');
                     }
                 });
+            
+            window.app.$emit('eventsDataChanged');
         }
     },
     render: h => h(App)

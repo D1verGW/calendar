@@ -20,6 +20,11 @@
                     this.eventsData.push(`{start: ${event.start}, duration: ${event.duration}, title: "${event.title}"},`);
                 });
 
+                window.app.$once('eventsDataChanged', () => {
+                    this.eventsData = [];
+                    this.exportEvents();
+                });
+
                 return false;
             }
         },
