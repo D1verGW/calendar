@@ -1,0 +1,19 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "backend for front",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "tingodb": "^0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "debug": "node debug server.js"
+  },
+  "author": "D1ver",
+  "license": "ISC"
+}
