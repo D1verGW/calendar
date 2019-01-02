@@ -54,11 +54,17 @@ window.app = new Vue({
     },
     methods: {
         requestUpdateUserData() {
+            let sendedData = [];
+            
+            this.eventsData.map((evt) => {
+                sendedData.push({start: evt.start, duration: evt.duration, title: evt.title})
+            });
+            
             let promise = fetch(this.$root.server + 'update', {
                 method: 'GET',
                 headers: {
                     username: this.$root.username,
-                    calendardata: JSON.stringify(this.eventsData)
+                    calendardata: JSON.stringify(sendedData)
                 }
             });
     
