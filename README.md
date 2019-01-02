@@ -1,10 +1,10 @@
 # calendar
 
 To start server: </br>
-cd Back </br>
-npm start </br>
+  cd ./Front </br>
+  npm start </br>
 
 To open project: </br>
-open in browser .Front/dist/static/index.html
+  open in browser ./Front/dist/static/index.html
 
 server port: 3000
