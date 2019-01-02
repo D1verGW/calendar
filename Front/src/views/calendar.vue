@@ -7,6 +7,7 @@
                 <event v-for="event in eventsData" :eventData="event"></event>
             </div>
         </div>
+        <export-event-form></export-event-form>
     </div>
 </template>
 
@@ -16,10 +17,12 @@
     import meanhour from '../components/meanhour.vue';
     import addeventform from '../components/addEventForm.vue';
     import store from "../store";
+    import ExportEventForm from "../components/exportEventForm";
 
     export default {
         name: "calendar",
         components: {
+            ExportEventForm,
             event,
             meanhour,
             addeventform
@@ -151,11 +154,12 @@
         position: relative;
         display: flex;
         flex-direction: column;
+        height: max-content;
     }
     .events {
         width: 200px;
         height: 1080px;
-        position: absolute;
+        position: relative;
         top: 0;
         left: 25px;
         display: grid;
